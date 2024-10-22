@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://www.ahilyapalace.com/</loc>
+        <lastmod>2024-10-22</lastmod>
+        <priority>1.0</priority>
+        <changefreq>daily</changefreq>
+    </url>
+
+    <!-- Rooms Page -->
+    <url>
+        <loc>https://www.ahilyapalace.com/rooms</loc>
+        <lastmod>2024-10-15</lastmod>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- About Us Page -->
+    <url>
+        <loc>https://www.ahilyapalace.com/about</loc>
+        <lastmod>2024-09-30</lastmod>
+        <priority>0.6</priority>
+        <changefreq>yearly</changefreq>
+    </url>
+
+    <!-- Contact Page -->
+    <url>
+        <loc>https://www.ahilyapalace.com/contact</loc>
+        <lastmod>2024-10-01</lastmod>
+        <priority>0.5</priority>
+        <changefreq>yearly</changefreq>
+    </url>
+
+    <!-- Gallery Page -->
+    <url>
+        <loc>https://www.ahilyapalace.com/gallery</loc>
+        <lastmod>2024-09-25</lastmod>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+</urlset>
