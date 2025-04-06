@@ -222,6 +222,16 @@ ul.gallery > li img {
 	gap: 2rem;
 	padding: 2rem 0;
 }
+
+.explore-section .content-group .content-img{
+width: 100%;
+}
+
+.explore-section .content-group .content{
+width: 100%;
+}
+
+
 .explore-section .content-group:nth-child(odd) {
 	background-color: #fff;
 }
@@ -299,4 +309,93 @@ footer {
 	p {
 		margin: 10px 0;
 	}
+	img {
+		width: 100px;
+		height: 100px;
+	}
 }
+.mobile-view {
+	display: none;
+}
+
+.our-location p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 767.98px) {
+	.gap50 {
+		flex-direction: column;
+	}
+
+	.about-palace h3, .room-suites .heading h3, .room-suites .grid-section h2,
+	.service .heading h3, .gallery-section .heading h3  {
+		font-size: 2rem;
+	}
+	.about-palace p, .room-suites .grid-section p {
+		font-size: 1rem;
+	}
+	.explore-section .heading h3 {
+		font-size: 1.7rem;
+	}
+	.explore-section img {
+		width: 100%;
+		object-fit: contain;
+	}
+	.explore-section .content-group {
+		flex-direction: column;
+	}
+	.room-suites .grid-section, .service .grid-group {
+		grid-template-columns: repeat(1, minmax(0, 1fr))
+	}
+	.explore-section .content-group h4 {
+		font-size: 1.5rem;
+	}
+	.explore-section .content-group p {
+		font-size: 1rem;
+	}
+	.footer-section {
+		flex-direction: column;
+	}
+	.social-icon {
+		justify-content: center;
+	}
+	.mobile-view {
+		display: block;
+	}
+	.desktop-view {
+		display: none;
+	}
+
+	.our-location {
+	img {
+		width: 70px;
+		height: 70px;
+	}
+	
+}
+header {
+		flex-direction: column;
+		.contact-group {
+			flex-wrap: wrap;
+			column-gap: 10px;
+			button {
+				flex-basis: 100%;
+			}
+		}
+		.logo {
+			margin-bottom: 15px;
+		}
+	}
+}
+
+@media screen and (max-width: 991.98px) {
+	.explore-section .content-group .content-img {
+		img {
+			width: 100%;
+		}
+	}
+}
+
