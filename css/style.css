@@ -309,11 +309,12 @@ footer {
 	p {
 		margin: 10px 0;
 	}
-	img {
+	
+}
+.our-location  img {
 		width: 100px;
 		height: 100px;
 	}
-}
 .mobile-view {
 	display: none;
 }
@@ -369,14 +370,12 @@ footer {
 		display: none;
 	}
 
-	.our-location {
-	img {
+	.our-location img {	 
 		width: 70px;
 		height: 70px;
 	}
 	
-}
-header {
+	header {
 		flex-direction: column;
 		.contact-group {
 			flex-wrap: wrap;
